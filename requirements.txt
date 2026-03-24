@@ -1,7 +1,5 @@
-services:
-  - type: web
-    name: bank-balance-analyzer
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
-    plan: free
+flask
+pandas
+numpy
+openpyxl
+gunicorn
